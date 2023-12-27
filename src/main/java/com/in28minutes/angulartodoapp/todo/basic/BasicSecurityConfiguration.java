@@ -18,7 +18,7 @@ import org.springframework.security.provisioning.JdbcUserDetailsManager;
 import org.springframework.security.web.SecurityFilterChain;
 import static org.springframework.security.core.userdetails.jdbc.JdbcDaoImpl.*;
 
-//@Configuration
+@Configuration
 public class BasicSecurityConfiguration {
 	
 	@Bean
